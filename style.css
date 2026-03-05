@@ -60,14 +60,29 @@ a:hover {
     font-size: 1rem;
 }
 
-.logo:hover{
+.logo:hover {
     cursor: default;
 }
 
+/*HAMBURGER MENU */
 
+#hamburger-nav {
+    display: none;
+}
 
+.hamburger-menu {
+    position: relative;
+    display: flex;
+}
 
-
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
 
 
 
